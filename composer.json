@@ -1,0 +1,19 @@
+{
+    "name": "shadowfiend/dnd-api-sdk",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Sergei Bobrov",
+            "email": "pandaphotoshopdesigner@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "psr-4": {"ShadowFiend\\": "src/"}
+    }
+}
